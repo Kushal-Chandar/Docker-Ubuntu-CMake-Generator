@@ -8,9 +8,8 @@ then
 fi
 if [ -z "$jobs" ]
 then
-      jobs=$(cat /proc/cpuinfo | grep processor | wc -l)
+      jobs=$(nproc)
 fi
-
 
 curl -OL https://github.com/Kitware/CMake/releases/download/v$cmake_version/cmake-$cmake_version.tar.gz
 tar -xzf cmake-$cmake_version.tar.gz
