@@ -1,4 +1,4 @@
-# CMake-Any-Version-Docker
+# Docker ubuntu cmake generator
 
 This is a DockerFile that can builds any version of cmake from source.
 
