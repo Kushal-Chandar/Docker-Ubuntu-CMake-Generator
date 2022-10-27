@@ -23,3 +23,7 @@ Create an image with version 3.24.2 with 8 parallel jobs for running make
 ```DockerFile
 docker build -t yourtag/yourtag --build-arg CMAKE_VERSION=3.24.2 JOBS=8 .
 ```
+
+## Example
+
+Checkout [this](https://hub.docker.com/repository/docker/kushalchandar/ubuntu-cmake-3.24.2) image, I generated.
